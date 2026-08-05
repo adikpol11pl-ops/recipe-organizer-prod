@@ -3,12 +3,12 @@ import type { ExpoConfig } from "expo/config";
 const config: ExpoConfig = {
   name: "Recipe Organizer",
   slug: "recipe-organizer",
-  version: "3.0.0",
+  version: "3.0.1",
   orientation: "portrait",
   icon: "./assets/icon.png",
   userInterfaceStyle: "automatic",
   android: {
-    versionCode: 1,
+    versionCode: 2,
     package: "com.recipeorganizer.app",
   },
   ios: {
